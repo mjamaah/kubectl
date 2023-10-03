@@ -1,11 +1,10 @@
-FROM bitnami/kubectl:1.17.4
+FROM bitnami/kubectl:1.25.14
 
-LABEL version="1.0.1"
+LABEL version="1.0.0"
 LABEL name="kubectl"
-LABEL repository="http://github.com/nickgronow/kubectl"
-LABEL homepage="http://github.com/nickgronow/kubectl"
+LABEL repository="http://github.com/mjamaah/kubectl"
+LABEL homepage="http://github.com/mjamaah/kubectl"
 
-LABEL maintainer="Nick Gronow <nick@wov.io>"
 LABEL com.github.actions.name="Kubernetes CLI - kubectl"
 LABEL com.github.actions.description="Runs kubectl"
 LABEL com.github.actions.icon="terminal"
