@@ -1,4 +1,3 @@
-![Continuous Integration](https://github.com/nickgronow/kubectl/workflows/Continuous%20Integration/badge.svg)
 
 # Github Action for Kubernetes CLI
 
@@ -50,15 +49,3 @@ steps:
 - name: Step Name
   uses: nickgronow/kubectl@v1.15
 ```
-
-## Supported kubectl tags
-
-* master
-* v1.17.4
-* v1.17.3
-* v1.17
-* v1.16
-* v1.15
-* v1.14
-* v1.13
-* v1.12
