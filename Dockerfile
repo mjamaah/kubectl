@@ -4,7 +4,6 @@ LABEL version="1.0.0"
 LABEL name="kubectl"
 LABEL repository="http://github.com/mjamaah/kubectl"
 LABEL homepage="http://github.com/mjamaah/kubectl"
-
 LABEL com.github.actions.name="Kubernetes CLI - kubectl"
 LABEL com.github.actions.description="Runs kubectl"
 LABEL com.github.actions.icon="terminal"
