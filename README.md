@@ -39,13 +39,3 @@ Make sure to base64-encode your kubeconfig file and put it in a github secret.  
 ```bash
 cat $HOME/.kube/config | base64
 ```
-
-## Kubectl version
-
-The Kubectl version that is used is driven by the action version you specify.  If you want to use the latest kubectl version, simply provide `master` as the ref.  To select a specific version, simply change the ref in the `uses` option, like so:
-
-```yaml
-steps:
-- name: Step Name
-  uses: nickgronow/kubectl@v1.15
-```
