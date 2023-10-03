@@ -17,12 +17,12 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Deploy to cluster
-      uses: nickgronow/kubectl@master
+      uses: mjamaah/kubectl@master
       with:
         config_data: ${{ secrets.kube_config }}
         args: set image --record deployment/<my-deploy> <my-container>=<my-image>:<new-tag>
     - name: Verify deployment
-      uses: nickgronow/kubectl@master
+      uses: mjamaah/kubectl@master
       with:
         config_data: ${{ secrets.kube_config }}
         args: '"rollout status deployment/<my-deploy>"'
