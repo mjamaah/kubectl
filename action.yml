@@ -1,6 +1,6 @@
 name: Kubectl v1.25.14
 description: Use bitnami's v1.25.14 kubectl with your Github actions
-author: Nicholas Gronow <nick@wov.io>
+author: Nicholas Gronow <nick@wov.io> - updated by mjamaah
 branding:
   icon: terminal
   color: blue
