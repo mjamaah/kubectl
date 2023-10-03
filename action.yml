@@ -1,5 +1,5 @@
-name: Kubectl utility
-description: Use bitnami's latest kubectl with your Github actions
+name: Kubectl v1.25.14
+description: Use bitnami's v1.25.14 kubectl with your Github actions
 author: Nicholas Gronow <nick@wov.io>
 branding:
   icon: terminal
@@ -10,4 +10,4 @@ inputs:
     required: true
 runs:
   using: docker
-  image: docker://nickgronow/kubectl:1.17
+  image: docker://nickgronow/kubectl:1.25.14
