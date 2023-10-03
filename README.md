@@ -1,11 +1,7 @@
 
 # Github Action for Kubernetes CLI
 
-This action provides `kubectl` for Github Actions.
-
-## Why another Kubectl Github Action?
-
-We need a Kubectl action that has already been built with an image hosted on Docker Hub.  Every other Kubectl action in the marketplace build an image every time they run.  I will be maintaining a built image hosted on docker hub that hopefully stays up-to-date with the Bitnami Kubectl.  This shaves off quite a bit of time in your pipeline.
+This action provides `kubectl v1.25.14` for Github Actions.
 
 ## Usage
 
